@@ -1,4 +1,4 @@
-ibrary(foreign)
+library(foreign)
   read.dct <- function(dct, labels.included = "yes") {
       temp <- readLines(dct)
       temp <- temp[grepl("_column", temp)]
